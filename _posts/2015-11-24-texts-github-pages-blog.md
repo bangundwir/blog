@@ -1,5 +1,5 @@
 ---
-title: My Blog Bangun Dwi R
+title: Menulis Dalam Matematika
 ---
 
 Texts is “rich editor for plain text”—you can write documents in visual
