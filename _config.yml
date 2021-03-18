@@ -1,0 +1,19 @@
+title: Blog
+tagline: on GitHub Pages
+description: Content-focused template for a blog hosted on GitHub Pages.
+url: http://bangundwir.github.io
+
+author:
+  name: Bangundwir
+  url: https://twitter.com/bangundwir
+  email: YourName@gmail.com
+
+# GitHub Pages / Jekyll configuration
+baseurl: ""
+permalink: /:title/
+paginate: 5
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
