@@ -8,6 +8,8 @@ author:
   url: https://twitter.com/bangundwir
   email: bangundwir@gmail.com
 
+rempte_theme: jekyll/minima
+
 # GitHub Pages / Jekyll configuration
 baseurl: ""
 permalink: /:title/
@@ -17,3 +19,8 @@ defaults:
       path: ""
     values:
       layout: post
+
+# Hendra
+minima:
+  skin: dark
+  date_format: "%a, %b %-d, %Y (week %V)"
