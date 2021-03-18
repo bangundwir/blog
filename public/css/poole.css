@@ -428,3 +428,22 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+:root {
+  --darkColor: #f7f7f7;
+  --darkBackground: #444;
+  --lightColor: #292b2c;
+  --lightBackground: #ccc;
+}
+
+body.light .card,
+body.light .jumbotron {
+  color: var(--lightColor);
+  background-color: var(--lightBackground);
+}
+
+body.dark .card,
+body.dark .jumbotron {
+  color: var(--darkColor);
+  background-color: var(--darkBackground);
+}
