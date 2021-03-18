@@ -1,12 +1,12 @@
 title: Blog
-tagline: on GitHub Pages
+tagline: Bangundwir
 description: Content-focused template for a blog hosted on GitHub Pages.
-url: http://bangundwir.github.io
+url: https://blog.banguncenter.my.id/
 
 author:
   name: Bangundwir
   url: https://twitter.com/bangundwir
-  email: YourName@gmail.com
+  email: bangundwir@gmail.com
 
 # GitHub Pages / Jekyll configuration
 baseurl: ""

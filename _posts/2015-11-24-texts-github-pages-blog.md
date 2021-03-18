@@ -1,9 +1,6 @@
 ---
-title: Texts + GitHub Pages = Blog
+title: My Blog Bangun Dwi R
 ---
-
-Follow simple [instructions](<http://www.texts.io/support/0017/>) to publish
-your blog on GitHub Pages and write posts in Texts.
 
 Texts is “rich editor for plain text”—you can write documents in visual
 interface and they will be saved in plain text format with Markdown markup. This
@@ -77,4 +74,3 @@ Tables
 Happy writing!
 ==============
 
-Got a question? Visit <http://www.texts.io/>.
