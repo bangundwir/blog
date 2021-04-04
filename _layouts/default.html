@@ -44,5 +44,35 @@
         }, false);
       })(document);
     </script>
+    <style>
+#darkmode {
+  background: #202020;
+  color: #F2FFFF;
+}
+
+#darkmode button {
+  background: salmon;
+}
+    </style>
+  <p>
+    <span class="icon" onclick="setDarkMode(false)">🤍</span>
+    <span class="icon" onclick="setDarkMode(true)">🖤</span>
+  </p>
+
+  <script>
+if(localStorage.getItem('theme') == 'dark')
+  setDarkMode(true)
+
+function setDarkMode(isDark) {
+  
+  if(isDark) {
+    document.body.setAttribute('id', 'darkmode')
+    localStorage.setItem('theme', 'dark')
+  } else {
+    document.body.setAttribute('id', '')
+    localStorage.removeItem('theme')
+  }
+}
+  </script>
   </body>
 </html>
